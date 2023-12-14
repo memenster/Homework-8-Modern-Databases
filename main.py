@@ -12,7 +12,6 @@ driver = GraphDatabase.driver(uri, auth=(username, password))
 
 userId = 0
 
-
 def close_driver():
     driver.close()
 
